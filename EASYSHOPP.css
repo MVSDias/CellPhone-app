@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+
+
+}
+
+.wrapped {
+    width: 100vw;
+    height: 100vh;
+}
+
+.esquerda {
+    display: inline-block;
+    width: 60%;
+    margin-top: 19%;
+    margin-left: 150px;
+}
+
+.direita {
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    background: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+}
+
+h1 {
+    width: 368px; 
+    height: 160px;
+    font-size: 60px;
+    
+    line-height: 80px; /* 114.286% */
+    
+
+}
+
+p {
+    width: 540px; 
+    font-size: 24px;
+    line-height: 48px; /* 171.429% */
+    opacity: 0.6000000238418579;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+button {
+    width: 250px;
+    height: 52px;
+    background-color: #9499ea;
+    border: none;
+    border-radius: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+
+
+}
+
+img {
+    width: 396px;
+    height: 502px;
+    position: relative;
+    top: 18%;
+    right: 127px;
+    
+}
+
+header {
+   
+   font-size: 28px;
+   font-style: normal;
+   line-height: normal;
+   margin-left: 57px;
+   margin-top: 24px;
+}
+
+a {
+    margin-right: 41px;
+    font-size: 28px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+a:nth-child(2){
+    opacity: .4;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+main {
+   width: 100vwpx;
+    
+
+}
+
+.esquerda {
+    width: 65%;
+    display: inline-block;
+    
+}
+
+.direita {
+    background-color: rgba(93, 93, 125, 0.16);
+    display: inline-block;
+    height: 100vh;
+    width: 35%;
+    position: absolute;
+    
+
+}
+
+
+h1 {
+    width: 368px; 
+    height: 160px;
+    font-size: 60px;
+    line-height: 80px; /* 114.286% */
+    margin-left: 120px;
+    margin-top: 244px;
+    
+}
+
+p {
+    width: 540px; 
+    font-size: 24px;
+    line-height: 48px; /* 171.429% */
+    opacity: 0.6000000238418579; 
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 250px;
+    height: 52px;
+    background-color: #9499ea;
+    border: none;
+    border-radius: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 120px;
+    margin-right: auto;
+}
+
+header {
+    font-size: 28px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 57px;
+    margin-top: 24px;
+   
+}
+
+.link {
+    margin-right: 41px;
+    font-size: 28px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.link:nth-child(2){
+    opacity: .4;
+}
+
+
+
+img {
+    width:456px;
+    height: 561.95;
+   
+    position: relative;
+    top: 237px;
+    right: 145px;
+   
+   
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .esquerda {
+        display: block;
+        height: 50%;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .direita {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    header {
+        margin-left: 113px;
+    }
+
+    img {
+        right: -96px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+   
+    
+    h1 {
+        
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+       
+    }
+
+    p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    header {
+        display: block;
+        margin-left: 74px;
+        margin-right: auto;
+    }
+
+    
+       
+
+    img {
+        width: 70%;
+        right: -46px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 414px){
+
+    .esquerda {
+        width: 100%;
+        padding:0 20px 30px 20px;
+        
+    }
+
+    .direita {
+        width: 100vw;
+    }
+
+    h1 {
+        width: auto;
+    }
+
+    p {
+        width: auto;
+        text-align: justify;
+        
+    }
+    
+}
